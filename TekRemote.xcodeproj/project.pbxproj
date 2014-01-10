@@ -21,6 +21,10 @@
 		FEA59C6E188092EA004D2518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C50188092EA004D2518 /* UIKit.framework */; };
 		FEA59C76188092EA004D2518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C74188092EA004D2518 /* InfoPlist.strings */; };
 		FEA59C78188092EA004D2518 /* TekRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C77188092EA004D2518 /* TekRemoteTests.m */; };
+		FEA59C8518809564004D2518 /* A002_9941-N.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C8118809564004D2518 /* A002_9941-N.png */; };
+		FEA59C8618809564004D2518 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C8218809564004D2518 /* blueButton.png */; };
+		FEA59C8718809564004D2518 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C8318809564004D2518 /* Icon.png */; };
+		FEA59C8818809564004D2518 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C8418809564004D2518 /* whiteButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		FEA59C73188092EA004D2518 /* TekRemoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TekRemoteTests-Info.plist"; sourceTree = "<group>"; };
 		FEA59C75188092EA004D2518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEA59C77188092EA004D2518 /* TekRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekRemoteTests.m; sourceTree = "<group>"; };
+		FEA59C8118809564004D2518 /* A002_9941-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A002_9941-N.png"; path = "../../../Desktop/TekRemote/TekRemote/A002_9941-N.png"; sourceTree = "<group>"; };
+		FEA59C8218809564004D2518 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = ../../../Desktop/TekRemote/TekRemote/blueButton.png; sourceTree = "<group>"; };
+		FEA59C8318809564004D2518 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Desktop/TekRemote/TekRemote/Icon.png; sourceTree = "<group>"; };
+		FEA59C8418809564004D2518 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteButton.png; path = ../../../Desktop/TekRemote/TekRemote/whiteButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,10 @@
 		FEA59C53188092EA004D2518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FEA59C8118809564004D2518 /* A002_9941-N.png */,
+				FEA59C8218809564004D2518 /* blueButton.png */,
+				FEA59C8318809564004D2518 /* Icon.png */,
+				FEA59C8418809564004D2518 /* whiteButton.png */,
 				FEA59C54188092EA004D2518 /* TekRemote-Info.plist */,
 				FEA59C55188092EA004D2518 /* InfoPlist.strings */,
 				FEA59C58188092EA004D2518 /* main.m */,
@@ -228,8 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA59C8718809564004D2518 /* Icon.png in Resources */,
+				FEA59C8618809564004D2518 /* blueButton.png in Resources */,
 				FEA59C65188092EA004D2518 /* Images.xcassets in Resources */,
 				FEA59C57188092EA004D2518 /* InfoPlist.strings in Resources */,
+				FEA59C8518809564004D2518 /* A002_9941-N.png in Resources */,
+				FEA59C8818809564004D2518 /* whiteButton.png in Resources */,
 				FEA59C60188092EA004D2518 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TekRemote/TekRemote-Prefix.pch";
 				INFOPLIST_FILE = "TekRemote/TekRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TekRemote/TekRemote-Prefix.pch";
 				INFOPLIST_FILE = "TekRemote/TekRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
