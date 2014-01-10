@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA59C4D188092E9004D2518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C4C188092E9004D2518 /* Foundation.framework */; };
+		FEA59C4F188092E9004D2518 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C4E188092E9004D2518 /* CoreGraphics.framework */; };
+		FEA59C51188092EA004D2518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C50188092EA004D2518 /* UIKit.framework */; };
+		FEA59C57188092EA004D2518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C55188092EA004D2518 /* InfoPlist.strings */; };
+		FEA59C59188092EA004D2518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C58188092EA004D2518 /* main.m */; };
+		FEA59C5D188092EA004D2518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C5C188092EA004D2518 /* AppDelegate.m */; };
+		FEA59C60188092EA004D2518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C5E188092EA004D2518 /* Main.storyboard */; };
+		FEA59C63188092EA004D2518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C62188092EA004D2518 /* ViewController.m */; };
+		FEA59C65188092EA004D2518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C64188092EA004D2518 /* Images.xcassets */; };
+		FEA59C6C188092EA004D2518 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C6B188092EA004D2518 /* XCTest.framework */; };
+		FEA59C6D188092EA004D2518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C4C188092E9004D2518 /* Foundation.framework */; };
+		FEA59C6E188092EA004D2518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C50188092EA004D2518 /* UIKit.framework */; };
+		FEA59C76188092EA004D2518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C74188092EA004D2518 /* InfoPlist.strings */; };
+		FEA59C78188092EA004D2518 /* TekRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C77188092EA004D2518 /* TekRemoteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA59C6F188092EA004D2518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA59C41188092E9004D2518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA59C48188092E9004D2518;
+			remoteInfo = TekRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA59C49188092E9004D2518 /* TekRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA59C4C188092E9004D2518 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEA59C4E188092E9004D2518 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEA59C50188092EA004D2518 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEA59C54188092EA004D2518 /* TekRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TekRemote-Info.plist"; sourceTree = "<group>"; };
+		FEA59C56188092EA004D2518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEA59C58188092EA004D2518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEA59C5A188092EA004D2518 /* TekRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TekRemote-Prefix.pch"; sourceTree = "<group>"; };
+		FEA59C5B188092EA004D2518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEA59C5C188092EA004D2518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEA59C5F188092EA004D2518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA59C61188092EA004D2518 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEA59C62188092EA004D2518 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEA59C64188092EA004D2518 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEA59C6A188092EA004D2518 /* TekRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA59C6B188092EA004D2518 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FEA59C73188092EA004D2518 /* TekRemoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TekRemoteTests-Info.plist"; sourceTree = "<group>"; };
+		FEA59C75188092EA004D2518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEA59C77188092EA004D2518 /* TekRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekRemoteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA59C46188092E9004D2518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA59C4F188092E9004D2518 /* CoreGraphics.framework in Frameworks */,
+				FEA59C51188092EA004D2518 /* UIKit.framework in Frameworks */,
+				FEA59C4D188092E9004D2518 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA59C67188092EA004D2518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA59C6C188092EA004D2518 /* XCTest.framework in Frameworks */,
+				FEA59C6E188092EA004D2518 /* UIKit.framework in Frameworks */,
+				FEA59C6D188092EA004D2518 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA59C40188092E9004D2518 = {
+			isa = PBXGroup;
+			children = (
+				FEA59C52188092EA004D2518 /* TekRemote */,
+				FEA59C71188092EA004D2518 /* TekRemoteTests */,
+				FEA59C4B188092E9004D2518 /* Frameworks */,
+				FEA59C4A188092E9004D2518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA59C4A188092E9004D2518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA59C49188092E9004D2518 /* TekRemote.app */,
+				FEA59C6A188092EA004D2518 /* TekRemoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA59C4B188092E9004D2518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEA59C4C188092E9004D2518 /* Foundation.framework */,
+				FEA59C4E188092E9004D2518 /* CoreGraphics.framework */,
+				FEA59C50188092EA004D2518 /* UIKit.framework */,
+				FEA59C6B188092EA004D2518 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA59C52188092EA004D2518 /* TekRemote */ = {
+			isa = PBXGroup;
+			children = (
+				FEA59C5B188092EA004D2518 /* AppDelegate.h */,
+				FEA59C5C188092EA004D2518 /* AppDelegate.m */,
+				FEA59C5E188092EA004D2518 /* Main.storyboard */,
+				FEA59C61188092EA004D2518 /* ViewController.h */,
+				FEA59C62188092EA004D2518 /* ViewController.m */,
+				FEA59C64188092EA004D2518 /* Images.xcassets */,
+				FEA59C53188092EA004D2518 /* Supporting Files */,
+			);
+			path = TekRemote;
+			sourceTree = "<group>";
+		};
+		FEA59C53188092EA004D2518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA59C54188092EA004D2518 /* TekRemote-Info.plist */,
+				FEA59C55188092EA004D2518 /* InfoPlist.strings */,
+				FEA59C58188092EA004D2518 /* main.m */,
+				FEA59C5A188092EA004D2518 /* TekRemote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA59C71188092EA004D2518 /* TekRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA59C77188092EA004D2518 /* TekRemoteTests.m */,
+				FEA59C72188092EA004D2518 /* Supporting Files */,
+			);
+			path = TekRemoteTests;
+			sourceTree = "<group>";
+		};
+		FEA59C72188092EA004D2518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA59C73188092EA004D2518 /* TekRemoteTests-Info.plist */,
+				FEA59C74188092EA004D2518 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA59C48188092E9004D2518 /* TekRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA59C7B188092EA004D2518 /* Build configuration list for PBXNativeTarget "TekRemote" */;
+			buildPhases = (
+				FEA59C45188092E9004D2518 /* Sources */,
+				FEA59C46188092E9004D2518 /* Frameworks */,
+				FEA59C47188092E9004D2518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekRemote;
+			productName = TekRemote;
+			productReference = FEA59C49188092E9004D2518 /* TekRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA59C69188092EA004D2518 /* TekRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA59C7E188092EA004D2518 /* Build configuration list for PBXNativeTarget "TekRemoteTests" */;
+			buildPhases = (
+				FEA59C66188092EA004D2518 /* Sources */,
+				FEA59C67188092EA004D2518 /* Frameworks */,
+				FEA59C68188092EA004D2518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA59C70188092EA004D2518 /* PBXTargetDependency */,
+			);
+			name = TekRemoteTests;
+			productName = TekRemoteTests;
+			productReference = FEA59C6A188092EA004D2518 /* TekRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA59C41188092E9004D2518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ward Witt";
+				TargetAttributes = {
+					FEA59C69188092EA004D2518 = {
+						TestTargetID = FEA59C48188092E9004D2518;
+					};
+				};
+			};
+			buildConfigurationList = FEA59C44188092E9004D2518 /* Build configuration list for PBXProject "TekRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA59C40188092E9004D2518;
+			productRefGroup = FEA59C4A188092E9004D2518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA59C48188092E9004D2518 /* TekRemote */,
+				FEA59C69188092EA004D2518 /* TekRemoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA59C47188092E9004D2518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA59C65188092EA004D2518 /* Images.xcassets in Resources */,
+				FEA59C57188092EA004D2518 /* InfoPlist.strings in Resources */,
+				FEA59C60188092EA004D2518 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA59C68188092EA004D2518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA59C76188092EA004D2518 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA59C45188092E9004D2518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA59C63188092EA004D2518 /* ViewController.m in Sources */,
+				FEA59C5D188092EA004D2518 /* AppDelegate.m in Sources */,
+				FEA59C59188092EA004D2518 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA59C66188092EA004D2518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA59C78188092EA004D2518 /* TekRemoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA59C70188092EA004D2518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA59C48188092E9004D2518 /* TekRemote */;
+			targetProxy = FEA59C6F188092EA004D2518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA59C55188092EA004D2518 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA59C56188092EA004D2518 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEA59C5E188092EA004D2518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA59C5F188092EA004D2518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA59C74188092EA004D2518 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA59C75188092EA004D2518 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA59C79188092EA004D2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEA59C7A188092EA004D2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA59C7C188092EA004D2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekRemote/TekRemote-Prefix.pch";
+				INFOPLIST_FILE = "TekRemote/TekRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEA59C7D188092EA004D2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekRemote/TekRemote-Prefix.pch";
+				INFOPLIST_FILE = "TekRemote/TekRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FEA59C7F188092EA004D2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TekRemote.app/TekRemote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekRemote/TekRemote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TekRemoteTests/TekRemoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FEA59C80188092EA004D2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TekRemote.app/TekRemote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekRemote/TekRemote-Prefix.pch";
+				INFOPLIST_FILE = "TekRemoteTests/TekRemoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA59C44188092E9004D2518 /* Build configuration list for PBXProject "TekRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA59C79188092EA004D2518 /* Debug */,
+				FEA59C7A188092EA004D2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA59C7B188092EA004D2518 /* Build configuration list for PBXNativeTarget "TekRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA59C7C188092EA004D2518 /* Debug */,
+				FEA59C7D188092EA004D2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEA59C7E188092EA004D2518 /* Build configuration list for PBXNativeTarget "TekRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA59C7F188092EA004D2518 /* Debug */,
+				FEA59C80188092EA004D2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA59C41188092E9004D2518 /* Project object */;
+}
