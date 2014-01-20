@@ -7,7 +7,29 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "snmpSession.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+
+snmpSession * session;
+IBOutlet UIButton * pst1Button;
+IBOutlet UIButton * pst2Button;
+IBOutlet UIButton * pst3Button;
+IBOutlet UIButton * pst4Button;
+IBOutlet UIButton * pst5Button;
+}
+
+- (void)openSNMPConnection;
+- (IBAction)PST1;
+- (IBAction)PST2;
+- (IBAction)PST3;
+- (IBAction)PST4;
+- (IBAction)PST5;
+
+- (IBAction)Q1;
+- (IBAction)Q2;
+- (IBAction)Q3;
+- (IBAction)Q4;
+- (IBAction)Q0;
 
 @end

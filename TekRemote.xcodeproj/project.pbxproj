@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2834331889E0EB00999E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C4C188092E9004D2518 /* Foundation.framework */; };
+		FE2834401889E0EC00999E0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C6B188092EA004D2518 /* XCTest.framework */; };
+		FE2834411889E0EC00999E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C4C188092E9004D2518 /* Foundation.framework */; };
+		FE2834421889E0EC00999E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA59C50188092EA004D2518 /* UIKit.framework */; };
+		FE2834451889E0EC00999E0F /* libsnmp_pp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2834321889E0EB00999E0F /* libsnmp_pp.a */; };
+		FE28344B1889E0EC00999E0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE2834491889E0EC00999E0F /* InfoPlist.strings */; };
+		FE28344D1889E0EC00999E0F /* snmp_ppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE28344C1889E0EC00999E0F /* snmp_ppTests.m */; };
 		FE77A3EA1884A28700B6D26D /* 0whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FE77A3E91884A28700B6D26D /* 0whiteButton.png */; };
 		FE7B84461888542D006246D8 /* 2whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7B84431888542D006246D8 /* 2whiteButton.png */; };
 		FE7B84471888542D006246D8 /* 3whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7B84441888542D006246D8 /* 3whiteButton.png */; };
@@ -28,10 +35,85 @@
 		FEA59C78188092EA004D2518 /* TekRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C77188092EA004D2518 /* TekRemoteTests.m */; };
 		FEA59C8518809564004D2518 /* A002_9941-N.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C8118809564004D2518 /* A002_9941-N.png */; };
 		FEA59C8718809564004D2518 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA59C8318809564004D2518 /* Icon.png */; };
+		FED5BAB11889E1F000A4C740 /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA941889E1F000A4C740 /* address.cpp */; };
+		FED5BAB21889E1F000A4C740 /* asn1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA951889E1F000A4C740 /* asn1.cpp */; };
+		FED5BAB31889E1F000A4C740 /* auth_priv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA961889E1F000A4C740 /* auth_priv.cpp */; };
+		FED5BAB41889E1F000A4C740 /* counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA971889E1F000A4C740 /* counter.cpp */; };
+		FED5BAB51889E1F000A4C740 /* ctr64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA981889E1F000A4C740 /* ctr64.cpp */; };
+		FED5BAB61889E1F000A4C740 /* eventlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA991889E1F000A4C740 /* eventlist.cpp */; };
+		FED5BAB71889E1F000A4C740 /* eventlistholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA9A1889E1F000A4C740 /* eventlistholder.cpp */; };
+		FED5BAB81889E1F000A4C740 /* gauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA9B1889E1F000A4C740 /* gauge.cpp */; };
+		FED5BAB91889E1F000A4C740 /* idea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA9C1889E1F000A4C740 /* idea.cpp */; };
+		FED5BABA1889E1F000A4C740 /* integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA9D1889E1F000A4C740 /* integer.cpp */; };
+		FED5BABB1889E1F000A4C740 /* IPv6Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA9E1889E1F000A4C740 /* IPv6Utility.cpp */; };
+		FED5BABC1889E1F000A4C740 /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BA9F1889E1F000A4C740 /* log.cpp */; };
+		FED5BABD1889E1F000A4C740 /* md5c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA01889E1F000A4C740 /* md5c.cpp */; };
+		FED5BABE1889E1F000A4C740 /* mp_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA11889E1F000A4C740 /* mp_v3.cpp */; };
+		FED5BABF1889E1F000A4C740 /* msec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA21889E1F000A4C740 /* msec.cpp */; };
+		FED5BAC01889E1F000A4C740 /* msgqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA31889E1F000A4C740 /* msgqueue.cpp */; };
+		FED5BAC11889E1F000A4C740 /* notifyqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA41889E1F000A4C740 /* notifyqueue.cpp */; };
+		FED5BAC21889E1F000A4C740 /* octet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA51889E1F000A4C740 /* octet.cpp */; };
+		FED5BAC31889E1F000A4C740 /* oid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA61889E1F000A4C740 /* oid.cpp */; };
+		FED5BAC41889E1F000A4C740 /* pdu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA71889E1F000A4C740 /* pdu.cpp */; };
+		FED5BAC51889E1F000A4C740 /* reentrant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA81889E1F000A4C740 /* reentrant.cpp */; };
+		FED5BAC61889E1F000A4C740 /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAA91889E1F000A4C740 /* sha.cpp */; };
+		FED5BAC71889E1F000A4C740 /* snmpmsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAAA1889E1F000A4C740 /* snmpmsg.cpp */; };
+		FED5BAC81889E1F000A4C740 /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAAB1889E1F000A4C740 /* target.cpp */; };
+		FED5BAC91889E1F000A4C740 /* timetick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAAC1889E1F000A4C740 /* timetick.cpp */; };
+		FED5BACA1889E1F000A4C740 /* usm_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAAD1889E1F000A4C740 /* usm_v3.cpp */; };
+		FED5BACB1889E1F000A4C740 /* uxsnmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAAE1889E1F000A4C740 /* uxsnmp.cpp */; };
+		FED5BACC1889E1F000A4C740 /* v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAAF1889E1F000A4C740 /* v3.cpp */; };
+		FED5BACD1889E1F000A4C740 /* vb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAB01889E1F000A4C740 /* vb.cpp */; };
+		FED5BACF1889E23100A4C740 /* address.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA701889E1B800A4C740 /* address.h */; };
+		FED5BAD01889E23100A4C740 /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA711889E1B800A4C740 /* asn1.h */; };
+		FED5BAD11889E23100A4C740 /* auth_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA721889E1B800A4C740 /* auth_priv.h */; };
+		FED5BAD21889E23100A4C740 /* collect.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA731889E1B800A4C740 /* collect.h */; };
+		FED5BAD31889E23100A4C740 /* config_snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA741889E1B800A4C740 /* config_snmp_pp.h */; };
+		FED5BAD41889E23100A4C740 /* counter.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA751889E1B800A4C740 /* counter.h */; };
+		FED5BAD51889E23100A4C740 /* ctr64.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA761889E1B800A4C740 /* ctr64.h */; };
+		FED5BAD61889E23100A4C740 /* eventlist.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA771889E1B800A4C740 /* eventlist.h */; };
+		FED5BAD71889E23100A4C740 /* eventlistholder.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA781889E1B800A4C740 /* eventlistholder.h */; };
+		FED5BAD81889E23100A4C740 /* gauge.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA791889E1B800A4C740 /* gauge.h */; };
+		FED5BAD91889E23100A4C740 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA7A1889E1B800A4C740 /* idea.h */; };
+		FED5BADA1889E23100A4C740 /* integer.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA7B1889E1B800A4C740 /* integer.h */; };
+		FED5BADB1889E23100A4C740 /* IPv6Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA7C1889E1B800A4C740 /* IPv6Utility.h */; };
+		FED5BADC1889E23100A4C740 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA7D1889E1B800A4C740 /* log.h */; };
+		FED5BADD1889E23100A4C740 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA7E1889E1B800A4C740 /* md5.h */; };
+		FED5BADE1889E23100A4C740 /* mp_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA7F1889E1B800A4C740 /* mp_v3.h */; };
+		FED5BADF1889E23100A4C740 /* msec.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA801889E1B800A4C740 /* msec.h */; };
+		FED5BAE01889E23100A4C740 /* msgqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA811889E1B800A4C740 /* msgqueue.h */; };
+		FED5BAE11889E23100A4C740 /* notifyqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA821889E1B800A4C740 /* notifyqueue.h */; };
+		FED5BAE21889E23100A4C740 /* octet.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA831889E1B800A4C740 /* octet.h */; };
+		FED5BAE31889E23100A4C740 /* oid_def.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA841889E1B800A4C740 /* oid_def.h */; };
+		FED5BAE41889E23100A4C740 /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA851889E1B800A4C740 /* oid.h */; };
+		FED5BAE51889E23100A4C740 /* pdu.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA861889E1B800A4C740 /* pdu.h */; };
+		FED5BAE61889E23100A4C740 /* reentrant.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA871889E1B800A4C740 /* reentrant.h */; };
+		FED5BAE71889E23100A4C740 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA881889E1B800A4C740 /* sha.h */; };
+		FED5BAE81889E23100A4C740 /* smi.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA891889E1B800A4C740 /* smi.h */; };
+		FED5BAE91889E23100A4C740 /* smival.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA8A1889E1B800A4C740 /* smival.h */; };
+		FED5BAEA1889E23100A4C740 /* snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA8B1889E1B800A4C740 /* snmp_pp.h */; };
+		FED5BAEB1889E23100A4C740 /* snmperrs.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA8C1889E1B800A4C740 /* snmperrs.h */; };
+		FED5BAEC1889E23100A4C740 /* snmpmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA8D1889E1B800A4C740 /* snmpmsg.h */; };
+		FED5BAED1889E23100A4C740 /* target.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA8E1889E1B800A4C740 /* target.h */; };
+		FED5BAEE1889E23100A4C740 /* timetick.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA8F1889E1B800A4C740 /* timetick.h */; };
+		FED5BAEF1889E23100A4C740 /* usm_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA901889E1B800A4C740 /* usm_v3.h */; };
+		FED5BAF01889E23100A4C740 /* uxsnmp.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA911889E1B800A4C740 /* uxsnmp.h */; };
+		FED5BAF11889E23100A4C740 /* v3.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA921889E1B800A4C740 /* v3.h */; };
+		FED5BAF21889E23100A4C740 /* vb.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5BA931889E1B800A4C740 /* vb.h */; };
+		FED5BAF51889E2CA00A4C740 /* snmpSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED5BAF41889E2CA00A4C740 /* snmpSession.mm */; };
+		FED5BAF81889E3B700A4C740 /* libsnmp_pp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2834321889E0EB00999E0F /* libsnmp_pp.a */; };
+		FED5BAFA1889E7FA00A4C740 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FED5BAF91889E7FA00A4C740 /* Settings.bundle */; };
 		FEE9BA7018884F4E002C44EB /* 1whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE9BA6F18884F4E002C44EB /* 1whiteButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FE2834431889E0EC00999E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA59C41188092E9004D2518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2834311889E0EB00999E0F;
+			remoteInfo = snmp_pp;
+		};
 		FEA59C6F188092EA004D2518 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FEA59C41188092E9004D2518 /* Project object */;
@@ -39,9 +121,34 @@
 			remoteGlobalIDString = FEA59C48188092E9004D2518;
 			remoteInfo = TekRemote;
 		};
+		FED5BAF61889E38A00A4C740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA59C41188092E9004D2518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2834311889E0EB00999E0F;
+			remoteInfo = snmp_pp;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FE2834301889E0EB00999E0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FE2834321889E0EB00999E0F /* libsnmp_pp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsnmp_pp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2834361889E0EB00999E0F /* snmp_pp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "snmp_pp-Prefix.pch"; sourceTree = "<group>"; };
+		FE28343F1889E0EC00999E0F /* snmp_ppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snmp_ppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2834481889E0EC00999E0F /* snmp_ppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "snmp_ppTests-Info.plist"; sourceTree = "<group>"; };
+		FE28344A1889E0EC00999E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE28344C1889E0EC00999E0F /* snmp_ppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snmp_ppTests.m; sourceTree = "<group>"; };
 		FE77A3E91884A28700B6D26D /* 0whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0whiteButton.png; path = ../0whiteButton.png; sourceTree = "<group>"; };
 		FE7B84431888542D006246D8 /* 2whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2whiteButton.png; path = ../2whiteButton.png; sourceTree = "<group>"; };
 		FE7B84441888542D006246D8 /* 3whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3whiteButton.png; path = ../3whiteButton.png; sourceTree = "<group>"; };
@@ -68,14 +175,102 @@
 		FEA59C77188092EA004D2518 /* TekRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekRemoteTests.m; sourceTree = "<group>"; };
 		FEA59C8118809564004D2518 /* A002_9941-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A002_9941-N.png"; path = "../../../Desktop/TekRemote/TekRemote/A002_9941-N.png"; sourceTree = "<group>"; };
 		FEA59C8318809564004D2518 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Desktop/TekRemote/TekRemote/Icon.png; sourceTree = "<group>"; };
+		FED5BA701889E1B800A4C740 /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
+		FED5BA711889E1B800A4C740 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		FED5BA721889E1B800A4C740 /* auth_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_priv.h; sourceTree = "<group>"; };
+		FED5BA731889E1B800A4C740 /* collect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collect.h; sourceTree = "<group>"; };
+		FED5BA741889E1B800A4C740 /* config_snmp_pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_snmp_pp.h; sourceTree = "<group>"; };
+		FED5BA751889E1B800A4C740 /* counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = counter.h; sourceTree = "<group>"; };
+		FED5BA761889E1B800A4C740 /* ctr64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctr64.h; sourceTree = "<group>"; };
+		FED5BA771889E1B800A4C740 /* eventlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventlist.h; sourceTree = "<group>"; };
+		FED5BA781889E1B800A4C740 /* eventlistholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventlistholder.h; sourceTree = "<group>"; };
+		FED5BA791889E1B800A4C740 /* gauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauge.h; sourceTree = "<group>"; };
+		FED5BA7A1889E1B800A4C740 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		FED5BA7B1889E1B800A4C740 /* integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = integer.h; sourceTree = "<group>"; };
+		FED5BA7C1889E1B800A4C740 /* IPv6Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPv6Utility.h; sourceTree = "<group>"; };
+		FED5BA7D1889E1B800A4C740 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		FED5BA7E1889E1B800A4C740 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		FED5BA7F1889E1B800A4C740 /* mp_v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp_v3.h; sourceTree = "<group>"; };
+		FED5BA801889E1B800A4C740 /* msec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msec.h; sourceTree = "<group>"; };
+		FED5BA811889E1B800A4C740 /* msgqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgqueue.h; sourceTree = "<group>"; };
+		FED5BA821889E1B800A4C740 /* notifyqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notifyqueue.h; sourceTree = "<group>"; };
+		FED5BA831889E1B800A4C740 /* octet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octet.h; sourceTree = "<group>"; };
+		FED5BA841889E1B800A4C740 /* oid_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oid_def.h; sourceTree = "<group>"; };
+		FED5BA851889E1B800A4C740 /* oid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
+		FED5BA861889E1B800A4C740 /* pdu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdu.h; sourceTree = "<group>"; };
+		FED5BA871889E1B800A4C740 /* reentrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reentrant.h; sourceTree = "<group>"; };
+		FED5BA881889E1B800A4C740 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		FED5BA891889E1B800A4C740 /* smi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smi.h; sourceTree = "<group>"; };
+		FED5BA8A1889E1B800A4C740 /* smival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smival.h; sourceTree = "<group>"; };
+		FED5BA8B1889E1B800A4C740 /* snmp_pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmp_pp.h; sourceTree = "<group>"; };
+		FED5BA8C1889E1B800A4C740 /* snmperrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmperrs.h; sourceTree = "<group>"; };
+		FED5BA8D1889E1B800A4C740 /* snmpmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmpmsg.h; sourceTree = "<group>"; };
+		FED5BA8E1889E1B800A4C740 /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target.h; sourceTree = "<group>"; };
+		FED5BA8F1889E1B800A4C740 /* timetick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timetick.h; sourceTree = "<group>"; };
+		FED5BA901889E1B800A4C740 /* usm_v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usm_v3.h; sourceTree = "<group>"; };
+		FED5BA911889E1B800A4C740 /* uxsnmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uxsnmp.h; sourceTree = "<group>"; };
+		FED5BA921889E1B800A4C740 /* v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v3.h; sourceTree = "<group>"; };
+		FED5BA931889E1B800A4C740 /* vb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vb.h; sourceTree = "<group>"; };
+		FED5BA941889E1F000A4C740 /* address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = address.cpp; sourceTree = "<group>"; };
+		FED5BA951889E1F000A4C740 /* asn1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asn1.cpp; sourceTree = "<group>"; };
+		FED5BA961889E1F000A4C740 /* auth_priv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auth_priv.cpp; sourceTree = "<group>"; };
+		FED5BA971889E1F000A4C740 /* counter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = counter.cpp; sourceTree = "<group>"; };
+		FED5BA981889E1F000A4C740 /* ctr64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctr64.cpp; sourceTree = "<group>"; };
+		FED5BA991889E1F000A4C740 /* eventlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventlist.cpp; sourceTree = "<group>"; };
+		FED5BA9A1889E1F000A4C740 /* eventlistholder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventlistholder.cpp; sourceTree = "<group>"; };
+		FED5BA9B1889E1F000A4C740 /* gauge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauge.cpp; sourceTree = "<group>"; };
+		FED5BA9C1889E1F000A4C740 /* idea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = idea.cpp; sourceTree = "<group>"; };
+		FED5BA9D1889E1F000A4C740 /* integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = integer.cpp; sourceTree = "<group>"; };
+		FED5BA9E1889E1F000A4C740 /* IPv6Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IPv6Utility.cpp; sourceTree = "<group>"; };
+		FED5BA9F1889E1F000A4C740 /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
+		FED5BAA01889E1F000A4C740 /* md5c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5c.cpp; sourceTree = "<group>"; };
+		FED5BAA11889E1F000A4C740 /* mp_v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mp_v3.cpp; sourceTree = "<group>"; };
+		FED5BAA21889E1F000A4C740 /* msec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msec.cpp; sourceTree = "<group>"; };
+		FED5BAA31889E1F000A4C740 /* msgqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msgqueue.cpp; sourceTree = "<group>"; };
+		FED5BAA41889E1F000A4C740 /* notifyqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notifyqueue.cpp; sourceTree = "<group>"; };
+		FED5BAA51889E1F000A4C740 /* octet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = octet.cpp; sourceTree = "<group>"; };
+		FED5BAA61889E1F000A4C740 /* oid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oid.cpp; sourceTree = "<group>"; };
+		FED5BAA71889E1F000A4C740 /* pdu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pdu.cpp; sourceTree = "<group>"; };
+		FED5BAA81889E1F000A4C740 /* reentrant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reentrant.cpp; sourceTree = "<group>"; };
+		FED5BAA91889E1F000A4C740 /* sha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha.cpp; sourceTree = "<group>"; };
+		FED5BAAA1889E1F000A4C740 /* snmpmsg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snmpmsg.cpp; sourceTree = "<group>"; };
+		FED5BAAB1889E1F000A4C740 /* target.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = target.cpp; sourceTree = "<group>"; };
+		FED5BAAC1889E1F000A4C740 /* timetick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timetick.cpp; sourceTree = "<group>"; };
+		FED5BAAD1889E1F000A4C740 /* usm_v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usm_v3.cpp; sourceTree = "<group>"; };
+		FED5BAAE1889E1F000A4C740 /* uxsnmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uxsnmp.cpp; sourceTree = "<group>"; };
+		FED5BAAF1889E1F000A4C740 /* v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v3.cpp; sourceTree = "<group>"; };
+		FED5BAB01889E1F000A4C740 /* vb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vb.cpp; sourceTree = "<group>"; };
+		FED5BAF31889E2CA00A4C740 /* snmpSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmpSession.h; sourceTree = "<group>"; };
+		FED5BAF41889E2CA00A4C740 /* snmpSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = snmpSession.mm; sourceTree = "<group>"; };
+		FED5BAF91889E7FA00A4C740 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		FEE9BA6F18884F4E002C44EB /* 1whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1whiteButton.png; path = ../1whiteButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FE28342F1889E0EB00999E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2834331889E0EB00999E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE28343C1889E0EC00999E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2834401889E0EC00999E0F /* XCTest.framework in Frameworks */,
+				FE2834421889E0EC00999E0F /* UIKit.framework in Frameworks */,
+				FE2834411889E0EC00999E0F /* Foundation.framework in Frameworks */,
+				FE2834451889E0EC00999E0F /* libsnmp_pp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FEA59C46188092E9004D2518 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED5BAF81889E3B700A4C740 /* libsnmp_pp.a in Frameworks */,
 				FEA59C4F188092E9004D2518 /* CoreGraphics.framework in Frameworks */,
 				FEA59C51188092EA004D2518 /* UIKit.framework in Frameworks */,
 				FEA59C4D188092E9004D2518 /* Foundation.framework in Frameworks */,
@@ -95,11 +290,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE2834341889E0EB00999E0F /* snmp_pp */ = {
+			isa = PBXGroup;
+			children = (
+				FED5BA941889E1F000A4C740 /* address.cpp */,
+				FED5BA951889E1F000A4C740 /* asn1.cpp */,
+				FED5BA961889E1F000A4C740 /* auth_priv.cpp */,
+				FED5BA971889E1F000A4C740 /* counter.cpp */,
+				FED5BA981889E1F000A4C740 /* ctr64.cpp */,
+				FED5BA991889E1F000A4C740 /* eventlist.cpp */,
+				FED5BA9A1889E1F000A4C740 /* eventlistholder.cpp */,
+				FED5BA9B1889E1F000A4C740 /* gauge.cpp */,
+				FED5BA9C1889E1F000A4C740 /* idea.cpp */,
+				FED5BA9D1889E1F000A4C740 /* integer.cpp */,
+				FED5BA9E1889E1F000A4C740 /* IPv6Utility.cpp */,
+				FED5BA9F1889E1F000A4C740 /* log.cpp */,
+				FED5BAA01889E1F000A4C740 /* md5c.cpp */,
+				FED5BAA11889E1F000A4C740 /* mp_v3.cpp */,
+				FED5BAA21889E1F000A4C740 /* msec.cpp */,
+				FED5BAA31889E1F000A4C740 /* msgqueue.cpp */,
+				FED5BAA41889E1F000A4C740 /* notifyqueue.cpp */,
+				FED5BAA51889E1F000A4C740 /* octet.cpp */,
+				FED5BAA61889E1F000A4C740 /* oid.cpp */,
+				FED5BAA71889E1F000A4C740 /* pdu.cpp */,
+				FED5BAA81889E1F000A4C740 /* reentrant.cpp */,
+				FED5BAA91889E1F000A4C740 /* sha.cpp */,
+				FED5BAAA1889E1F000A4C740 /* snmpmsg.cpp */,
+				FED5BAAB1889E1F000A4C740 /* target.cpp */,
+				FED5BAAC1889E1F000A4C740 /* timetick.cpp */,
+				FED5BAAD1889E1F000A4C740 /* usm_v3.cpp */,
+				FED5BAAE1889E1F000A4C740 /* uxsnmp.cpp */,
+				FED5BAAF1889E1F000A4C740 /* v3.cpp */,
+				FED5BAB01889E1F000A4C740 /* vb.cpp */,
+				FED5BA701889E1B800A4C740 /* address.h */,
+				FED5BA711889E1B800A4C740 /* asn1.h */,
+				FED5BA721889E1B800A4C740 /* auth_priv.h */,
+				FED5BA731889E1B800A4C740 /* collect.h */,
+				FED5BA741889E1B800A4C740 /* config_snmp_pp.h */,
+				FED5BA751889E1B800A4C740 /* counter.h */,
+				FED5BA761889E1B800A4C740 /* ctr64.h */,
+				FED5BA771889E1B800A4C740 /* eventlist.h */,
+				FED5BA781889E1B800A4C740 /* eventlistholder.h */,
+				FED5BA791889E1B800A4C740 /* gauge.h */,
+				FED5BA7A1889E1B800A4C740 /* idea.h */,
+				FED5BA7B1889E1B800A4C740 /* integer.h */,
+				FED5BA7C1889E1B800A4C740 /* IPv6Utility.h */,
+				FED5BA7D1889E1B800A4C740 /* log.h */,
+				FED5BA7E1889E1B800A4C740 /* md5.h */,
+				FED5BA7F1889E1B800A4C740 /* mp_v3.h */,
+				FED5BA801889E1B800A4C740 /* msec.h */,
+				FED5BA811889E1B800A4C740 /* msgqueue.h */,
+				FED5BA821889E1B800A4C740 /* notifyqueue.h */,
+				FED5BA831889E1B800A4C740 /* octet.h */,
+				FED5BA841889E1B800A4C740 /* oid_def.h */,
+				FED5BA851889E1B800A4C740 /* oid.h */,
+				FED5BA861889E1B800A4C740 /* pdu.h */,
+				FED5BA871889E1B800A4C740 /* reentrant.h */,
+				FED5BA881889E1B800A4C740 /* sha.h */,
+				FED5BA891889E1B800A4C740 /* smi.h */,
+				FED5BA8A1889E1B800A4C740 /* smival.h */,
+				FED5BA8B1889E1B800A4C740 /* snmp_pp.h */,
+				FED5BA8C1889E1B800A4C740 /* snmperrs.h */,
+				FED5BA8D1889E1B800A4C740 /* snmpmsg.h */,
+				FED5BA8E1889E1B800A4C740 /* target.h */,
+				FED5BA8F1889E1B800A4C740 /* timetick.h */,
+				FED5BA901889E1B800A4C740 /* usm_v3.h */,
+				FED5BA911889E1B800A4C740 /* uxsnmp.h */,
+				FED5BA921889E1B800A4C740 /* v3.h */,
+				FED5BA931889E1B800A4C740 /* vb.h */,
+				FE2834351889E0EB00999E0F /* Supporting Files */,
+			);
+			path = snmp_pp;
+			sourceTree = "<group>";
+		};
+		FE2834351889E0EB00999E0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2834361889E0EB00999E0F /* snmp_pp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE2834461889E0EC00999E0F /* snmp_ppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE28344C1889E0EC00999E0F /* snmp_ppTests.m */,
+				FE2834471889E0EC00999E0F /* Supporting Files */,
+			);
+			path = snmp_ppTests;
+			sourceTree = "<group>";
+		};
+		FE2834471889E0EC00999E0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2834481889E0EC00999E0F /* snmp_ppTests-Info.plist */,
+				FE2834491889E0EC00999E0F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FEA59C40188092E9004D2518 = {
 			isa = PBXGroup;
 			children = (
 				FEA59C52188092EA004D2518 /* TekRemote */,
 				FEA59C71188092EA004D2518 /* TekRemoteTests */,
+				FE2834341889E0EB00999E0F /* snmp_pp */,
+				FE2834461889E0EC00999E0F /* snmp_ppTests */,
 				FEA59C4B188092E9004D2518 /* Frameworks */,
 				FEA59C4A188092E9004D2518 /* Products */,
 			);
@@ -110,6 +406,8 @@
 			children = (
 				FEA59C49188092E9004D2518 /* TekRemote.app */,
 				FEA59C6A188092EA004D2518 /* TekRemoteTests.xctest */,
+				FE2834321889E0EB00999E0F /* libsnmp_pp.a */,
+				FE28343F1889E0EC00999E0F /* snmp_ppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +429,8 @@
 				FEA59C5B188092EA004D2518 /* AppDelegate.h */,
 				FEA59C5C188092EA004D2518 /* AppDelegate.m */,
 				FEA59C5E188092EA004D2518 /* Main.storyboard */,
+				FED5BAF31889E2CA00A4C740 /* snmpSession.h */,
+				FED5BAF41889E2CA00A4C740 /* snmpSession.mm */,
 				FEA59C61188092EA004D2518 /* ViewController.h */,
 				FEA59C62188092EA004D2518 /* ViewController.m */,
 				FEA59C64188092EA004D2518 /* Images.xcassets */,
@@ -142,6 +442,7 @@
 		FEA59C53188092EA004D2518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FED5BAF91889E7FA00A4C740 /* Settings.bundle */,
 				FE9A3D621889C4AE00036BA3 /* whiteButton.png */,
 				FE77A3E91884A28700B6D26D /* 0whiteButton.png */,
 				FEE9BA6F18884F4E002C44EB /* 1whiteButton.png */,
@@ -178,7 +479,89 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FED5BACE1889E21200A4C740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED5BACF1889E23100A4C740 /* address.h in Headers */,
+				FED5BAD01889E23100A4C740 /* asn1.h in Headers */,
+				FED5BAD11889E23100A4C740 /* auth_priv.h in Headers */,
+				FED5BAD21889E23100A4C740 /* collect.h in Headers */,
+				FED5BAD31889E23100A4C740 /* config_snmp_pp.h in Headers */,
+				FED5BAD41889E23100A4C740 /* counter.h in Headers */,
+				FED5BAD51889E23100A4C740 /* ctr64.h in Headers */,
+				FED5BAD61889E23100A4C740 /* eventlist.h in Headers */,
+				FED5BAD71889E23100A4C740 /* eventlistholder.h in Headers */,
+				FED5BAD81889E23100A4C740 /* gauge.h in Headers */,
+				FED5BAD91889E23100A4C740 /* idea.h in Headers */,
+				FED5BADA1889E23100A4C740 /* integer.h in Headers */,
+				FED5BADB1889E23100A4C740 /* IPv6Utility.h in Headers */,
+				FED5BADC1889E23100A4C740 /* log.h in Headers */,
+				FED5BADD1889E23100A4C740 /* md5.h in Headers */,
+				FED5BADE1889E23100A4C740 /* mp_v3.h in Headers */,
+				FED5BADF1889E23100A4C740 /* msec.h in Headers */,
+				FED5BAE01889E23100A4C740 /* msgqueue.h in Headers */,
+				FED5BAE11889E23100A4C740 /* notifyqueue.h in Headers */,
+				FED5BAE21889E23100A4C740 /* octet.h in Headers */,
+				FED5BAE31889E23100A4C740 /* oid_def.h in Headers */,
+				FED5BAE41889E23100A4C740 /* oid.h in Headers */,
+				FED5BAE51889E23100A4C740 /* pdu.h in Headers */,
+				FED5BAE61889E23100A4C740 /* reentrant.h in Headers */,
+				FED5BAE71889E23100A4C740 /* sha.h in Headers */,
+				FED5BAE81889E23100A4C740 /* smi.h in Headers */,
+				FED5BAE91889E23100A4C740 /* smival.h in Headers */,
+				FED5BAEA1889E23100A4C740 /* snmp_pp.h in Headers */,
+				FED5BAEB1889E23100A4C740 /* snmperrs.h in Headers */,
+				FED5BAEC1889E23100A4C740 /* snmpmsg.h in Headers */,
+				FED5BAED1889E23100A4C740 /* target.h in Headers */,
+				FED5BAEE1889E23100A4C740 /* timetick.h in Headers */,
+				FED5BAEF1889E23100A4C740 /* usm_v3.h in Headers */,
+				FED5BAF01889E23100A4C740 /* uxsnmp.h in Headers */,
+				FED5BAF11889E23100A4C740 /* v3.h in Headers */,
+				FED5BAF21889E23100A4C740 /* vb.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		FE2834311889E0EB00999E0F /* snmp_pp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2834521889E0EC00999E0F /* Build configuration list for PBXNativeTarget "snmp_pp" */;
+			buildPhases = (
+				FE28342E1889E0EB00999E0F /* Sources */,
+				FE28342F1889E0EB00999E0F /* Frameworks */,
+				FE2834301889E0EB00999E0F /* CopyFiles */,
+				FED5BACE1889E21200A4C740 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snmp_pp;
+			productName = snmp_pp;
+			productReference = FE2834321889E0EB00999E0F /* libsnmp_pp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE28343E1889E0EC00999E0F /* snmp_ppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2834531889E0EC00999E0F /* Build configuration list for PBXNativeTarget "snmp_ppTests" */;
+			buildPhases = (
+				FE28343B1889E0EC00999E0F /* Sources */,
+				FE28343C1889E0EC00999E0F /* Frameworks */,
+				FE28343D1889E0EC00999E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2834441889E0EC00999E0F /* PBXTargetDependency */,
+			);
+			name = snmp_ppTests;
+			productName = snmp_ppTests;
+			productReference = FE28343F1889E0EC00999E0F /* snmp_ppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FEA59C48188092E9004D2518 /* TekRemote */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEA59C7B188092EA004D2518 /* Build configuration list for PBXNativeTarget "TekRemote" */;
@@ -190,6 +573,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FED5BAF71889E38A00A4C740 /* PBXTargetDependency */,
 			);
 			name = TekRemote;
 			productName = TekRemote;
@@ -223,6 +607,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ward Witt";
 				TargetAttributes = {
+					FE28343E1889E0EC00999E0F = {
+						TestTargetID = FEA59C48188092E9004D2518;
+					};
 					FEA59C69188092EA004D2518 = {
 						TestTargetID = FEA59C48188092E9004D2518;
 					};
@@ -243,11 +630,21 @@
 			targets = (
 				FEA59C48188092E9004D2518 /* TekRemote */,
 				FEA59C69188092EA004D2518 /* TekRemoteTests */,
+				FE2834311889E0EB00999E0F /* snmp_pp */,
+				FE28343E1889E0EC00999E0F /* snmp_ppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FE28343D1889E0EC00999E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE28344B1889E0EC00999E0F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FEA59C47188092E9004D2518 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +653,7 @@
 				FEE9BA7018884F4E002C44EB /* 1whiteButton.png in Resources */,
 				FE77A3EA1884A28700B6D26D /* 0whiteButton.png in Resources */,
 				FE7B84461888542D006246D8 /* 2whiteButton.png in Resources */,
+				FED5BAFA1889E7FA00A4C740 /* Settings.bundle in Resources */,
 				FE7B84471888542D006246D8 /* 3whiteButton.png in Resources */,
 				FEA59C8718809564004D2518 /* Icon.png in Resources */,
 				FEA59C65188092EA004D2518 /* Images.xcassets in Resources */,
@@ -277,10 +675,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FE28342E1889E0EB00999E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED5BAB41889E1F000A4C740 /* counter.cpp in Sources */,
+				FED5BAB21889E1F000A4C740 /* asn1.cpp in Sources */,
+				FED5BAC81889E1F000A4C740 /* target.cpp in Sources */,
+				FED5BAC71889E1F000A4C740 /* snmpmsg.cpp in Sources */,
+				FED5BACC1889E1F000A4C740 /* v3.cpp in Sources */,
+				FED5BAB91889E1F000A4C740 /* idea.cpp in Sources */,
+				FED5BAB61889E1F000A4C740 /* eventlist.cpp in Sources */,
+				FED5BAC61889E1F000A4C740 /* sha.cpp in Sources */,
+				FED5BAB81889E1F000A4C740 /* gauge.cpp in Sources */,
+				FED5BAC41889E1F000A4C740 /* pdu.cpp in Sources */,
+				FED5BAB71889E1F000A4C740 /* eventlistholder.cpp in Sources */,
+				FED5BACD1889E1F000A4C740 /* vb.cpp in Sources */,
+				FED5BABC1889E1F000A4C740 /* log.cpp in Sources */,
+				FED5BAC21889E1F000A4C740 /* octet.cpp in Sources */,
+				FED5BABE1889E1F000A4C740 /* mp_v3.cpp in Sources */,
+				FED5BABF1889E1F000A4C740 /* msec.cpp in Sources */,
+				FED5BACA1889E1F000A4C740 /* usm_v3.cpp in Sources */,
+				FED5BAC31889E1F000A4C740 /* oid.cpp in Sources */,
+				FED5BACB1889E1F000A4C740 /* uxsnmp.cpp in Sources */,
+				FED5BAC01889E1F000A4C740 /* msgqueue.cpp in Sources */,
+				FED5BAC11889E1F000A4C740 /* notifyqueue.cpp in Sources */,
+				FED5BABA1889E1F000A4C740 /* integer.cpp in Sources */,
+				FED5BAB11889E1F000A4C740 /* address.cpp in Sources */,
+				FED5BAC51889E1F000A4C740 /* reentrant.cpp in Sources */,
+				FED5BAC91889E1F000A4C740 /* timetick.cpp in Sources */,
+				FED5BAB31889E1F000A4C740 /* auth_priv.cpp in Sources */,
+				FED5BABB1889E1F000A4C740 /* IPv6Utility.cpp in Sources */,
+				FED5BAB51889E1F000A4C740 /* ctr64.cpp in Sources */,
+				FED5BABD1889E1F000A4C740 /* md5c.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE28343B1889E0EC00999E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE28344D1889E0EC00999E0F /* snmp_ppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FEA59C45188092E9004D2518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED5BAF51889E2CA00A4C740 /* snmpSession.mm in Sources */,
 				FEA59C63188092EA004D2518 /* ViewController.m in Sources */,
 				FEA59C5D188092EA004D2518 /* AppDelegate.m in Sources */,
 				FEA59C59188092EA004D2518 /* main.m in Sources */,
@@ -298,14 +741,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FE2834441889E0EC00999E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2834311889E0EB00999E0F /* snmp_pp */;
+			targetProxy = FE2834431889E0EC00999E0F /* PBXContainerItemProxy */;
+		};
 		FEA59C70188092EA004D2518 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FEA59C48188092E9004D2518 /* TekRemote */;
 			targetProxy = FEA59C6F188092EA004D2518 /* PBXContainerItemProxy */;
 		};
+		FED5BAF71889E38A00A4C740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2834311889E0EB00999E0F /* snmp_pp */;
+			targetProxy = FED5BAF61889E38A00A4C740 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FE2834491889E0EC00999E0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE28344A1889E0EC00999E0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		FEA59C55188092EA004D2518 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -333,6 +794,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FE28344E1889E0EC00999E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/snmp_pp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snmp_pp/snmp_pp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE28344F1889E0EC00999E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/snmp_pp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snmp_pp/snmp_pp-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE2834501889E0EC00999E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TekRemote.app/TekRemote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snmp_pp/snmp_pp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "snmp_ppTests/snmp_ppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FE2834511889E0EC00999E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TekRemote.app/TekRemote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snmp_pp/snmp_pp-Prefix.pch";
+				INFOPLIST_FILE = "snmp_ppTests/snmp_ppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		FEA59C79188092EA004D2518 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -478,6 +1011,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FE2834521889E0EC00999E0F /* Build configuration list for PBXNativeTarget "snmp_pp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE28344E1889E0EC00999E0F /* Debug */,
+				FE28344F1889E0EC00999E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2834531889E0EC00999E0F /* Build configuration list for PBXNativeTarget "snmp_ppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2834501889E0EC00999E0F /* Debug */,
+				FE2834511889E0EC00999E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FEA59C44188092E9004D2518 /* Build configuration list for PBXProject "TekRemote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

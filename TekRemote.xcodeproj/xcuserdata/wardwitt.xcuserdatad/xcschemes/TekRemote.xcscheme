@@ -38,6 +38,16 @@
                ReferencedContainer = "container:TekRemote.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FE28343E1889E0EC00999E0F"
+               BuildableName = "snmp_ppTests.xctest"
+               BlueprintName = "snmp_ppTests"
+               ReferencedContainer = "container:TekRemote.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

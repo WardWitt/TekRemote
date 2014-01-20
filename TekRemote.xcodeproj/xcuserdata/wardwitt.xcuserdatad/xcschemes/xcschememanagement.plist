@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>snmp_pp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FE2834311889E0EB00999E0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE28343E1889E0EC00999E0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FEA59C48188092E9004D2518</key>
 		<dict>
 			<key>primary</key>
