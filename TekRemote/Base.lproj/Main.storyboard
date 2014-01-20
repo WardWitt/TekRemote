@@ -23,7 +23,6 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="PST 1" backgroundImage="whiteButton.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="PST1" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DO1-Iy-y9O"/>
@@ -41,38 +40,29 @@
                                     <action selector="PST2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NTS-xq-Ed5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWW-WU-Mhl">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWW-WU-Mhl">
                                 <rect key="frame" x="108" y="104" width="80" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="2whiteButton.png">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" backgroundImage="2whiteButton.png"/>
                                 <connections>
                                     <action selector="Q2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fRZ-0H-lcZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ku-N7-GHL">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ku-N7-GHL">
                                 <rect key="frame" x="20" y="212" width="80" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
-                                <state key="normal" backgroundImage="3whiteButton.png">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" backgroundImage="3whiteButton.png"/>
                                 <connections>
                                     <action selector="Q3" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DPV-eb-VkD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60K-9H-8o0">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60K-9H-8o0">
                                 <rect key="frame" x="108" y="212" width="80" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="4whiteButton.png">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" backgroundImage="4whiteButton.png"/>
                                 <connections>
                                     <action selector="Q4" destination="vXZ-lx-hvc" eventType="touchUpInside" id="euM-rl-Vi6"/>
                                 </connections>
@@ -121,12 +111,15 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="PST6" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1RM-XI-1Mj"/>
+                                </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="A002_9941-N.png" translatesAutoresizingMaskIntoConstraints="NO" id="GYt-cW-rs6">
                                 <rect key="frame" x="252" y="78" width="300" height="225"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWS-D6-7TL">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWS-D6-7TL">
                                 <rect key="frame" x="64" y="158" width="80" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="0.0"/>
@@ -135,14 +128,11 @@
                                     <action selector="Q0" destination="vXZ-lx-hvc" eventType="touchUpInside" id="549-wz-8fY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEe-sF-0h6">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEe-sF-0h6">
                                 <rect key="frame" x="20" y="104" width="80" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="0.0"/>
-                                <state key="normal" backgroundImage="1whiteButton.png">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" backgroundImage="1whiteButton.png"/>
                                 <connections>
                                     <action selector="Q1" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yqo-OA-q5L"/>
                                 </connections>
@@ -152,6 +142,19 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="Q0Button" destination="ZWS-D6-7TL" id="gYk-5c-fme"/>
+                        <outlet property="Q1Button" destination="vEe-sF-0h6" id="4NA-Li-MZw"/>
+                        <outlet property="Q2Button" destination="PWW-WU-Mhl" id="rpe-BL-epl"/>
+                        <outlet property="Q3Button" destination="6ku-N7-GHL" id="cOc-8Q-d1L"/>
+                        <outlet property="Q4Button" destination="60K-9H-8o0" id="KZP-Wy-wf9"/>
+                        <outlet property="pst1Button" destination="Lgb-OH-rZy" id="DVq-IV-9Xk"/>
+                        <outlet property="pst2Button" destination="QON-Vl-swO" id="HKC-Mu-Tai"/>
+                        <outlet property="pst3Button" destination="bCf-4q-9uG" id="H6C-TF-z6e"/>
+                        <outlet property="pst4Button" destination="iNV-m3-XfN" id="Ssk-7w-IV2"/>
+                        <outlet property="pst5Button" destination="tAO-x8-2Ex" id="VvP-Je-eYJ"/>
+                        <outlet property="pst6Button" destination="gzA-WR-LWO" id="f3c-MK-d8D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
