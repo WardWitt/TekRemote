@@ -173,8 +173,8 @@
 		FEA59C73188092EA004D2518 /* TekRemoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TekRemoteTests-Info.plist"; sourceTree = "<group>"; };
 		FEA59C75188092EA004D2518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEA59C77188092EA004D2518 /* TekRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekRemoteTests.m; sourceTree = "<group>"; };
-		FEA59C8118809564004D2518 /* A002_9941-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A002_9941-N.png"; path = "../../../Desktop/TekRemote/TekRemote/A002_9941-N.png"; sourceTree = "<group>"; };
-		FEA59C8318809564004D2518 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Desktop/TekRemote/TekRemote/Icon.png; sourceTree = "<group>"; };
+		FEA59C8118809564004D2518 /* A002_9941-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A002_9941-N.png"; path = "../A002_9941-N.png"; sourceTree = "<group>"; };
+		FEA59C8318809564004D2518 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		FED5BA701889E1B800A4C740 /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
 		FED5BA711889E1B800A4C740 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
 		FED5BA721889E1B800A4C740 /* auth_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_priv.h; sourceTree = "<group>"; };
