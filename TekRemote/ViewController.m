@@ -32,7 +32,7 @@
     NSDictionary *IPDefault = [NSDictionary dictionaryWithObject:@"0.0.0.0" forKey:@"ipAddress_preference"];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults registerDefaults:IPDefault];
-	[defaults setValue:@"1.1" forKey:@"versionField"];
+	[defaults setValue:@"1.2" forKey:@"versionField"];
     NSString *targetIp = [defaults stringForKey:@"ipAddress_preference"];
 	session = [[snmpSession alloc]init];
 	[session initWithHost:targetIp community:@"private"];
